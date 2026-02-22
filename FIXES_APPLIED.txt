@@ -1,0 +1,2 @@
+Fixed Next.js build issue: moved contact page metadata from client component to app/contact/layout.jsx
+Updated domain references to https://wnyrenovation.com
