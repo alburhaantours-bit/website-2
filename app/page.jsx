@@ -108,7 +108,6 @@ export default function HomePage() {
         <SectionHeading
           eyebrow="Reviews"
           title="Homeowners recommend us for quality + communication."
-          subtitle="Add your Google Reviews link and paste real reviews in the code (easy instructions included)."
         />
         <TestimonialGrid />
       </section>
