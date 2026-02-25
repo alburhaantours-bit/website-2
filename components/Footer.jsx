@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid gap-8 md:grid-cols-3">
           <div>
             <p className="text-sm font-semibold">WNY Renovations & Repairs LLC</p>
-            <p className="mt-2 text-sm text-white/70">Modern luxury renovations in Buffalo and surrounding suburbs.</p>
+            <p className="mt-2 text-sm text-white/70">Modern luxury renovations in Buffalo and surrounding suburbs since 2024.</p>
             <div className="mt-4 space-y-1 text-sm text-white/70">
               <p><a className="underline decoration-white/20 hover:decoration-white/40" href="tel:7168007854">716-800-7854</a></p>
               <p><a className="underline decoration-white/20 hover:decoration-white/40" href="mailto:wnyrenovation@gmail.com">wnyrenovation@gmail.com</a></p>
