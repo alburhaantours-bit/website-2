@@ -1,15 +1,15 @@
 const testimonials = [
   {
-    name: "Homeowner in Buffalo",
-    quote: "Very professional, great communication, and the finish looks premium. Would hire again.",
+    name: "Tracy H. - Cheektowaga",
+    quote: "Very responsive, nice and friendly. Installed our screen door and did a wonderful job! We will definitely be calling again for other projects!",
   },
   {
-    name: "Rental owner (suburbs)",
-    quote: "Handled our punch list quickly and cleanly. Clear quote and no surprises.",
+    name: "Laura P. - Amherst",
+    quote: "The guys went above and beyond. They worked with us and helped get our painting project done fast.",
   },
   {
-    name: "Bathroom refresh",
-    quote: "Tile lines are perfect and everything was left clean every day.",
+    name: "Tracy T. - Tonawanda",
+    quote: "The light fixtures installed look amazing as well as the ceiling fans. They were even willing to tackle a few small things I needed done. I will definitely be hiring them again.",
   },
 ];
 
@@ -20,7 +20,6 @@ export default function TestimonialGrid() {
         <div key={idx} className="card p-6">
           <p className="text-sm font-semibold">{t.name}</p>
           <p className="mt-3 text-sm text-white/70">“{t.quote}”</p>
-          <p className="mt-4 text-xs text-white/50">Replace with a real review + add your Google Reviews link.</p>
         </div>
       ))}
     </div>
