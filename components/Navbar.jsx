@@ -15,7 +15,7 @@ export default function Navbar() {
         <Link href="/" className="flex items-center gap-3">
           <Image src="/brand/logo-mark.png" alt="WNY Renovations logo mark" width={36} height={36} />
           <div className="leading-tight">
-            <p className="text-sm font-semibold">WNY Renovations & Repairs</p>
+            <p className="text-sm font-semibold">WNY Renovations & Repairs LLC</p>
             <p className="text-xs text-white/60">Buffalo • Suburbs</p>
           </div>
         </Link>
