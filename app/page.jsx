@@ -77,7 +77,7 @@ export default function HomePage() {
         <SectionHeading
           eyebrow="Services"
           title="High-impact upgrades, done with a premium standard."
-          subtitle="Pick one project or bundle multiple upgrades. We work in Buffalo and surrounding suburbs."
+          subtitle="Pick one project or bundle multiple upgrades."
         />
         <ServiceGrid />
       </section>
