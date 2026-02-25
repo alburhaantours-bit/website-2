@@ -15,7 +15,7 @@ export default function HomePage() {
           <div>
             <div className="flex flex-wrap gap-2">
               <span className="badge">Buffalo + Suburbs</span>
-              <span className="badge">Kitchen • Bathroom • Tile</span>
+              <span className="badge">Kitchen • Bathroom • Basement</span>
               <span className="badge">Clean, on-time, premium finish</span>
             </div>
 
