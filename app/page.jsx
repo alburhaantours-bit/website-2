@@ -87,8 +87,7 @@ export default function HomePage() {
   className="mb-10"
   eyebrow="Process"
   title="A simple, professional workflow"
-/>
-        />
+   />
         <div className="grid gap-4 md:grid-cols-3">
           <div className="card p-6">
             <p className="text-sm font-semibold">1) Request estimate</p>
