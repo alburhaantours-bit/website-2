@@ -24,7 +24,7 @@ export default function Footer() {
               <li><Link className="hover:text-white" href="/privacy">Privacy</Link></li>
             </ul>
           </div>
-          </div>
+  
         </div>
 
         <p className="mt-10 text-xs text-white/50">
