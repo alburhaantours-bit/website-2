@@ -25,15 +25,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div>
-            <p className="text-sm font-semibold">Quick note</p>
-            <p className="mt-3 text-sm text-white/70">
-              Add your Google Reviews link + real before/after photos to boost conversion immediately.
-            </p>
-            <div className="mt-4 flex gap-3">
-              <Link className="btn btn-primary" href="/contact">Get Estimate</Link>
-              <a className="btn btn-ghost" href="tel:7168007854">Call</a>
-            </div>
           </div>
         </div>
 
