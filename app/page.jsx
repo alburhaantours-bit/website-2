@@ -20,12 +20,12 @@ export default function HomePage() {
             </div>
 
             <h1 className="mt-5 font-display text-4xl leading-tight md:text-5xl">
-              Modern-luxury renovations that feel <span className="text-white/90">expensive</span> — without the chaos.
+              Quality Work. Fair Pricing. No Games.
             </h1>
 
             <p className="mt-4 max-w-xl text-white/75">
-              WNY Renovations & Repairs LLC helps homeowners upgrade kitchens, bathrooms, flooring, and interiors with
-              clear quotes, tight workmanship, and a clean job site from day one to final walkthrough.
+              We provide detailed, transparent estimates and insured craftsmanship for kitchens, bathrooms, and overall house renovations.
+              If you already have a written quote, we’re happy to review it and see if we can deliver better value — without cutting corners.
             </p>
 
             <div className="mt-6 flex flex-wrap gap-3">
