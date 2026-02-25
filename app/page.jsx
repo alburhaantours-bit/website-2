@@ -83,10 +83,11 @@ export default function HomePage() {
       </section>
 
       <section className="container pb-12">
-        <SectionHeading
-          eyebrow="Process"
-          title="A simple, professional workflow"
-          
+     <SectionHeading
+  className="mb-10"
+  eyebrow="Process"
+  title="A simple, professional workflow"
+/>
         />
         <div className="grid gap-4 md:grid-cols-3">
           <div className="card p-6">
