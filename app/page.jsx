@@ -86,7 +86,6 @@ export default function HomePage() {
         <SectionHeading
           eyebrow="Process"
           title="A simple, professional workflow"
-          subtitle="Clear steps that keep your project moving and your home livable."
         />
         <div className="grid gap-4 md:grid-cols-3">
           <div className="card p-6">
