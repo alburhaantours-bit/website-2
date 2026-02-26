@@ -72,7 +72,6 @@ export default function Footer() {
         className="h-20 w-auto"
       />
     </div>
-  </div>
 
 </div>
 
