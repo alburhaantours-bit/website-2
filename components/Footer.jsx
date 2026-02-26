@@ -4,6 +4,7 @@ export default function Footer() {
   return (
     <footer className="border-t border-white/10">
       <div className="container py-8">
+        {/* Top grid */}
         <div className="grid gap-6 md:grid-cols-3">
           {/* Left */}
           <div>
@@ -11,6 +12,7 @@ export default function Footer() {
             <p className="mt-2 text-sm text-white/70">
               Modern luxury renovations in Buffalo and surrounding suburbs since 2024.
             </p>
+
             <div className="mt-4 space-y-1 text-sm text-white/70">
               <p>
                 <a
@@ -63,24 +65,23 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Right (EPA badge higher) */}
-      <div className="flex md:justify-end items-start">
-    <div className="rounded-xl border border-white/10 bg-white/5 p-3">
-      <img
-        src="/epa-lead-safe.png"
-        alt="EPA Lead-Safe Certified Firm"
-        className="h-20 w-auto"
-      />
-    </div>
+          {/* Right (EPA badge) */}
+          <div className="flex items-start md:justify-end">
+            <div className="rounded-xl border border-white/10 bg-white/5 p-3">
+              <img
+                src="/epa-lead-safe.png"
+                alt="EPA Lead-Safe Certified Firm"
+                className="h-20 w-auto"
+              />
+            </div>
+          </div>
+        </div>
 
-</div>
-
-{/* Bottom bar */}
-<div className="mt-6 border-t border-white/10 pt-4">
-  <p className="text-xs text-white/50">
-    © {new Date().getFullYear()} WNY Renovations & Repairs LLC. All rights reserved.
-  </p>
-</div>
+        {/* Bottom bar */}
+        <div className="mt-6 border-t border-white/10 pt-4">
+          <p className="text-xs text-white/50">
+            © {new Date().getFullYear()} WNY Renovations & Repairs LLC. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>
