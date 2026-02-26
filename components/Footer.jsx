@@ -27,10 +27,17 @@ export default function Footer() {
   
         </div>
 
-        <p className="mt-10 text-xs text-white/50">
-          © {new Date().getFullYear()} WNY Renovations & Repairs LLC. All rights reserved.
-        </p>
-      </div>
+       <div className="mt-10 flex items-center justify-between">
+  <p className="text-xs text-white/50">
+    © {new Date().getFullYear()} WNY Renovations & Repairs LLC. All rights reserved.
+  </p>
+
+  <img
+    src="/EPA_Leadsafe_Logo_NAT-F325195-1.jpg"
+    alt="EPA Lead-Safe Certified Firm"
+    className="w-28 opacity-90"
+  />
+</div>
     </footer>
   );
 }
