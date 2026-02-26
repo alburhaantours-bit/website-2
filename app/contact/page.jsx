@@ -120,11 +120,14 @@ export default function ContactPage() {
             </ul>
           </div>
 
-          <div className="card p-6">
-            <p className="text-sm font-semibold">Hours</p>
-            <p className="mt-3 text-sm text-white/70">Mon–Sat: 8am–6pm • Sunday: by appointment</p>
-          </div>
-        </div>
+       <div className="card p-6">
+  <p className="text-sm font-semibold">Hours</p>
+
+  <div className="mt-4 flex justify-between text-sm text-white/70">
+    <span>Monday – Sunday</span>
+    <span>8:00 AM – 7:00 PM</span>
+  </div>
+</div>
       </div>
     </section>
   );
