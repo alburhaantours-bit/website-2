@@ -123,10 +123,10 @@ export default function ContactPage() {
        <div className="card p-6">
   <p className="text-sm font-semibold">Hours</p>
 
-  <div className="mt-4 flex justify-between text-sm text-white/70">
-    <span>Monday – Sunday</span>
-    <span>8:00 AM – 7:00 PM</span>
-  </div>
+<div className="mt-4 flex items-center justify-between gap-4 text-sm text-white/70">
+  <span className="whitespace-nowrap">Monday – Sunday</span>
+  <span className="whitespace-nowrap">8:00 AM – 7:00 PM</span>
+</div>
 </div>
       </div>
     </section>
