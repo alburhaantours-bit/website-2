@@ -33,7 +33,7 @@ export default function Footer() {
   </p>
 
   <img
-    src="/EPA_Leadsafe_Logo_NAT-F325195-1.jpg"
+        src="/epa-lead-safe.png"
     alt="EPA Lead-Safe Certified Firm"
     className="w-28 opacity-90"
   />
