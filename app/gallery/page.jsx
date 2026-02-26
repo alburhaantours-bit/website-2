@@ -8,12 +8,12 @@ export const metadata = {
 };
 
 const photos = [
-  { src: "/gallery/sample-1.jpg", alt: "Kitchen renovation sample" },
-  { src: "/gallery/sample-2.jpg", alt: "Bathroom renovation sample" },
-  { src: "/gallery/sample-3.jpg", alt: "Tile installation sample" },
-  { src: "/gallery/sample-4.jpg", alt: "Flooring upgrade sample" },
-  { src: "/gallery/sample-5.jpg", alt: "Drywall and paint sample" },
-  { src: "/gallery/sample-6.jpg", alt: "Handyman punch list sample" },
+  { src: "/gallery/sample-1.jpg", alt: "Kitchen renovation" },
+  { src: "/gallery/sample-2.jpg", alt: "Bathroom renovation" },
+  { src: "/gallery/sample-3.jpg", alt: "Tile installation" },
+  { src: "/gallery/sample-4.jpg", alt: "Flooring upgrade" },
+  { src: "/gallery/sample-5.jpg", alt: "Drywall and paint" },
+  { src: "/gallery/sample-6.jpg", alt: "Handyman punch list" },
 ];
 
 export default function GalleryPage() {
@@ -22,8 +22,7 @@ export default function GalleryPage() {
       <section className="container pt-10 pb-10">
         <SectionHeading
           eyebrow="Portfolio"
-          title="Work that photographs well — because the details matter."
-          subtitle="Replace these sample images with your own (instructions in README)."
+          title="Premium upgrades homeowners can afford."
         />
 
         <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -34,7 +33,6 @@ export default function GalleryPage() {
               </div>
               <div className="p-4">
                 <p className="text-sm font-semibold">{p.alt}</p>
-                <p className="mt-1 text-xs text-white/70">Add a short caption like materials + timeline.</p>
               </div>
             </div>
           ))}
