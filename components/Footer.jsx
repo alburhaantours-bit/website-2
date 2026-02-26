@@ -38,6 +38,7 @@ export default function Footer() {
     className="w-28 opacity-90"
   />
 </div>
+        </div> 
     </footer>
   );
 }
