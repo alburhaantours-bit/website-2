@@ -15,23 +15,23 @@ export default function AboutPage() {
           <div>
             <SectionHeading
               eyebrow="About"
-              title="Craftsmanship + communication."
-              subtitle="A renovation should feel organized, clean, and premium — not stressful."
+              title="Built on Trust. Driven by Craftsmanship."
+      
               align="left"
             />
 
             <div className="mt-4 space-y-3 text-sm text-white/75">
               <p>
-                WNY Renovations & Repairs LLC provides kitchen and bathroom renovations, tile/flooring, drywall/paint,
-                and handyman services across Buffalo and surrounding suburbs.
+               WNY Renovations & Repairs LLC is a family-owned renovation company proudly serving Buffalo and surrounding suburbs since 2024. 
+              We help homeowners improve their spaces with high-quality craftsmanship, honest pricing, and a smooth, professional experience from start to finish.
               </p>
               <p>
-                Our standard is simple: clear scope, tight details, and respect for your home — from surface protection
-                to cleanup and the final walkthrough.
+                As a locally operated business, we care deeply about our community and treat every home with respect, attention to detail, and reliable workmanship. 
+                Our goal is simple — deliver beautiful, lasting results while keeping projects transparent, affordable, and stress-free.
               </p>
               <p>
-                Want a modern-luxury look? We’ll help you choose materials and finishes that elevate the space without
-                wasting budget.
+               We are fully licensed and insured, giving homeowners confidence and peace of mind throughout every project.
+                At WNY Renovations & Repairs LLC, we don’t just renovate homes — we build trust.
               </p>
             </div>
 
@@ -53,7 +53,6 @@ export default function AboutPage() {
             <div className="p-5">
               <p className="text-sm font-semibold">Modern luxury, Buffalo-built.</p>
               <p className="mt-1 text-sm text-white/70">
-                Replace this image with your own team / project photo.
               </p>
             </div>
           </div>
