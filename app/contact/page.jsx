@@ -78,6 +78,7 @@ export default function ContactPage() {
                 <option>Drywall & paint</option>
                 <option>Handyman / punch lists</option>
                 <option>Moving / hauling</option>
+                <option>Other</option>
               </select>
             </div>
 
