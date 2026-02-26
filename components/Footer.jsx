@@ -65,13 +65,15 @@ export default function Footer() {
 
           {/* Right (EPA badge higher) */}
           <div className="md:flex md:justify-end">
-            <img
-              src="/epa-lead-safe.png"
-              alt="EPA Lead-Safe Certified Firm"
-              className="mt-2 w-28 opacity-90"
-            />
-          </div>
-        </div>
+        <div className="md:flex md:justify-end">
+  <div className="mt-2 inline-flex items-center justify-center rounded-xl border border-white/10 bg-white/5 p-3">
+    <img
+      src="/epa-lead-safe.png"
+      alt="EPA Lead-Safe Certified Firm"
+      className="h-20 w-auto"
+    />
+  </div>
+</div>
 
         {/* Bottom bar */}
         <div className="mt-6 flex items-center justify-between border-t border-white/10 pt-4">
