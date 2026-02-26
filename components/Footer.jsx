@@ -64,22 +64,24 @@ export default function Footer() {
           </div>
 
           {/* Right (EPA badge higher) */}
-          <div className="md:flex md:justify-end">
-        <div className="md:flex md:justify-end">
-  <div className="mt-2 inline-flex items-center justify-center rounded-xl border border-white/10 bg-white/5 p-3">
-    <img
-      src="/epa-lead-safe.png"
-      alt="EPA Lead-Safe Certified Firm"
-      className="h-20 w-auto"
-    />
+      <div className="flex md:justify-end items-start">
+    <div className="rounded-xl border border-white/10 bg-white/5 p-3">
+      <img
+        src="/epa-lead-safe.png"
+        alt="EPA Lead-Safe Certified Firm"
+        className="h-20 w-auto"
+      />
+    </div>
   </div>
+
 </div>
 
-        {/* Bottom bar */}
-        <div className="mt-6 flex items-center justify-between border-t border-white/10 pt-4">
-          <p className="text-xs text-white/50">
-            © {new Date().getFullYear()} WNY Renovations & Repairs LLC. All rights reserved.
-          </p>
+{/* Bottom bar */}
+<div className="mt-6 border-t border-white/10 pt-4">
+  <p className="text-xs text-white/50">
+    © {new Date().getFullYear()} WNY Renovations & Repairs LLC. All rights reserved.
+  </p>
+</div>
         </div>
       </div>
     </footer>
