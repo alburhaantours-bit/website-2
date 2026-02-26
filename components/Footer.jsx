@@ -27,16 +27,18 @@ export default function Footer() {
   
         </div>
 
-       <div className="mt-10 flex items-center justify-between">
+   <div className="mt-6 flex items-center justify-between">
+  
   <p className="text-xs text-white/50">
     © {new Date().getFullYear()} WNY Renovations & Repairs LLC. All rights reserved.
   </p>
 
   <img
-        src="/epa-lead-safe.png"
+    src="/epa-lead-safe.png"
     alt="EPA Lead-Safe Certified Firm"
-    className="w-28 opacity-90"
+    className="w-24 opacity-90"
   />
+
 </div>
         </div> 
     </footer>
