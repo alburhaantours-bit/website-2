@@ -33,3 +33,15 @@ export const metadata = {
     follow: true,
   },
 };
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body>
+        <Navbar />
+        <main className="min-h-[70vh]">{children}</main>
+        <Footer />
+      </body>
+    </html>
+  );
+}
