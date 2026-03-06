@@ -7,7 +7,6 @@ export const metadata = {
   alternates: {
     canonical: "/",
   },
-},
 
   title: {
     default: "WNY Renovations & Repairs LLC",
