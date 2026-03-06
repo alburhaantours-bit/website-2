@@ -4,6 +4,10 @@ import Footer from "@/components/Footer";
 
 export const metadata = {
   metadataBase: new URL("https://wnyrenovation.com"),
+  alternates: {
+    canonical: "/",
+  },
+};
 
   title: {
     default: "WNY Renovations & Repairs LLC",
